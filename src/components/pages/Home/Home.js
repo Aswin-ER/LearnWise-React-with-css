@@ -3,6 +3,8 @@ import './Home.css'
 import meta from '../../../assets/img/meta.jpeg'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import Courses from '../courses/course'
+import Community from '../community/community'
+import Plans from '../plans/plans';
 
 function Home() {
 
@@ -51,6 +53,8 @@ function Home() {
         </div>
     </section>
     <Courses/>
+    <Community/>
+    <Plans/>
     </>
   )
 }
